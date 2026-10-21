@@ -18,7 +18,7 @@ from knowledge_base import ROOM_KNOWLEDGE_BASE
 
 st.set_page_config(page_title="风水报告生成器", layout="wide")
 
-st.title("🏠 风水报告生成器（原型）")
+st.title("风水报告生成器")
 st.caption(
     "按楼层来做：上传一张平面图，添加这一层的区域并打点、勾选内容，"
     "完成后点「➕ 添加新楼层」标签页继续下一层。全部做完后在页面底部生成 PPT / JSON。"
